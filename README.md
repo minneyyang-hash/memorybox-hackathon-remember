@@ -308,4 +308,4 @@ Instead of asking users to build a knowledge base manually, MemoryBox becomes a 
 Everything worth remembering.
 
 presentation：https://remembereverything.lovable.app/slides/all.html#s1
-demo UI：https://memb.lovable.app/c/0b4e58d1-ff2a-490a-82a5-5a339c3400c2
+demo UI：https://memb.lovable.app/c/b08df728-3f5b-4e3f-b227-ec73402c1486
