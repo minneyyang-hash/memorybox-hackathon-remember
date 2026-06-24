@@ -151,7 +151,7 @@ The challenge is getting valuable information into the memory system before it i
 
 # 3. Demo
 
-**Live Demo:** [https://memb.lovable.app/c/0b12c9b3-1806-48ab-b965-0bf0e0d763c1]
+**Live Demo:** [https://memb.lovable.app/c/cc5d3114-1c3b-4be7-b82a-54870d88feb8]
 
 ### Scenario 1
 
