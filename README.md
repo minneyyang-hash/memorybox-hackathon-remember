@@ -6,9 +6,10 @@ A lightweight memory capture experience for MemoryBox that helps knowledge worke
 
 **Repo:** [https://github.com/minneyyang-hash/memorybox-hackathon-remember]
 **Demo:** [https://memb.lovable.app/c/0b12c9b3-1806-48ab-b965-0bf0e0d763c1]
-
+**Slides:** [https://remembereverything.lovable.app/slides/all.html#s1] 
 **Vedio:** [https://www.loom.com/share/8854dc234f52450181de9b4851e4df93]
-           
+        
+
 **Team 9:** Minnie
 
 ---
