@@ -2,310 +2,397 @@
 
 ### Everything worth remembering.
 
-A new memory capture experience for MemoryBox that transforms screenshots, AI responses, links, ideas, and everyday moments into searchable, connected memories.
+A lightweight memory capture experience for MemoryBox that helps knowledge workers, lifelong learners, and AI power users instantly save screenshots, AI responses, links, and ideas as searchable, connected memories.
+
+![Uploading image.png…]()
+
+
+**Repo:** [https://github.com/minneyyang-hash/memorybox-hackathon-remember]
+**Demo:** Video     [https://www.loom.com/share/8854dc234f52450181de9b4851e4df93]
+          Prototype [https://memb.lovable.app/c/0b12c9b3-1806-48ab-b965-0bf0e0d763c1]
+           
+**Team 9:** Minnie
 
 ---
 
-<img width="1316" height="617" alt="image" src="https://github.com/user-attachments/assets/2a7249a3-f4e6-43e2-af00-98d73930a32d" />
+# 1. The Problem
 
+## Target User
 
-# Overview
+Knowledge workers, learners, and AI users who constantly encounter useful information throughout the day.
 
-MemoryBox already helps users remember through:
+Examples:
+
+* Learning a new language
+* Researching a topic
+* Working with AI assistants
+* Collecting ideas and references
+* Planning trips or projects
+
+These users regularly discover information worth keeping but have no seamless way to turn it into long-term AI memory.
+
+---
+
+## The Pain
+
+Today, MemoryBox primarily captures knowledge through:
 
 * Documents
 * URLs
-* Chat History
+* Chat history
 * Personas
-* Memory Spaces
 
-However, most memories do not begin as documents.
+However, most valuable information doesn't arrive as a document.
 
-They begin as moments.
+It appears as:
 
-A useful screenshot.
-A great AI answer.
-A language learning tip.
-A travel plan.
-A random idea.
+* Screenshots
+* Helpful AI responses
+* Quick ideas
+* Photos
+* Notes
+* Bookmarks
 
-Today these moments are scattered across Notes, Photos, Bookmarks, Downloads, and messaging apps.
+Users end up storing these memories across:
 
-They rarely become part of the user's AI memory.
+* Apple Notes
+* Screenshots folders
+* Browser bookmarks
+* Messaging apps
+* Personal note-taking tools
 
-Remember introduces a new interaction that allows users to instantly capture anything worth remembering and make it part of MemoryBox.
-
----
-
-# Problem Statement
-
-MemoryBox has a powerful memory system.
-
-The challenge is not memory retrieval.
-
-The challenge is memory acquisition.
-
-Today users must intentionally import content into MemoryBox.
-
-This creates friction.
-
-As a result:
-
-* Valuable knowledge stays outside the system.
-* Users maintain multiple fragmented memory tools.
-* MemoryBox misses many daily learning moments.
-* AI cannot leverage knowledge that never enters the platform.
-
-The bottleneck is no longer understanding.
-
-The bottleneck is capture.
+As a result, MemoryBox never sees many of the memories users actually care about.
 
 ---
 
-# Solution
+## Why This Matters
 
-Introduce a new first-class action:
+This fragmentation creates three problems:
 
-## Remember
+### Knowledge Loss
+
+Useful information is forgotten or becomes difficult to find later.
+
+### Weak Memory Growth
+
+MemoryBox only learns from imported content instead of daily experiences.
+
+### Reduced Engagement
+
+Users only visit MemoryBox when they need information rather than making it part of their daily workflow.
+
+---
+
+## Evidence This Is Real
+
+This idea originated from personal workflows.
+
+Useful information is frequently captured in:
+
+* Apple Notes
+* Screenshots
+* Bookmarks
+* AI conversations
+
+while MemoryBox remains disconnected from these daily memory habits.
+
+The gap is not memory retrieval.
+
+The gap is memory capture.
+
+---
+
+# 2. The Solution
+
+## What It Does
+
+Remember introduces a new first-class action inside MemoryBox.
 
 Alongside:
 
-## Ask
+**Ask**
 
-Users can now capture:
+users can now:
 
-* AI Responses
+**Remember**
+
+Users can instantly capture:
+
+* AI responses
 * Screenshots
 * Images
 * URLs
 * Documents
-* Quick Notes
-
-Once captured, MemoryBox automatically:
-
-* Understands the content
-* Generates summaries
-* Creates tags
-* Connects related memories
-* Places memories into Memory Spaces
-* Makes them available in future conversations
-
-The experience shifts from:
-
-"Upload a document"
-
-to
-
-"Bring me anything worth remembering."
-
----
-
-# Demo Flow
-
-## Demo 1: Save from Chat
-
-User receives a useful AI response.
-
-Click:
-
-Remember
+* Quick notes
 
 MemoryBox automatically:
 
-* Saves content
-* Creates summary
-* Extracts keywords
-* Links to Memory Space
+* Understands content
+* Generates summaries
+* Creates tags
+* Connects related memories
+* Assigns Memory Spaces
+* Makes content available in future conversations
 
 ---
 
-## Demo 2: Save a Screenshot
+## The Key Insight
 
-User drags an Italian grammar screenshot.
+Most AI memory systems focus on helping AI remember users.
 
-MemoryBox:
+Remember focuses on helping users remember life.
 
-* Reads the screenshot
-* Generates a summary
-* Extracts learning topics
-* Saves it as a memory
+The challenge is no longer understanding content.
+
+Modern AI already excels at OCR, summarization, classification, and retrieval.
+
+The challenge is getting valuable information into the memory system before it is forgotten.
 
 ---
 
-## Demo 3: Recall
+# 3. Demo
 
-Later the user asks:
+**Live Demo:** [Lovable URL]
+
+### Scenario 1
+
+Save a useful AI response directly from chat.
+
+### Scenario 2
+
+Drag and drop a screenshot.
+
+### Scenario 3
+
+Ask:
 
 "What did I learn today?"
 
-MemoryBox references:
-
-* Saved chat response
-* Saved screenshot
-
-and generates a personalized answer.
+MemoryBox retrieves and connects captured memories automatically.
 
 ---
 
-# Aha Moment
+# 4. The Aha! Moment
+
+A user receives a particularly useful AI response.
+
+They click:
+
+**Remember**
+
+Within seconds:
+
+* The content is saved
+* A summary appears
+* Keywords are extracted
+* A Memory Space is assigned
 
 The user realizes:
 
-"I don't need to organize information anymore."
+"I don't need to organize anything manually."
 
-Instead of:
+MemoryBox does the work automatically.
 
-Capture → Organize → Search
-
-the workflow becomes:
-
-Capture → AI Organizes → Recall
-
-The value of MemoryBox becomes visible immediately after saving the first memory.
+**Time to value: less than 30 seconds.**
 
 ---
 
-# Habit Formation
+# 5. Usage Flow
 
-Most users do not upload PDFs every day.
+## Step 1 — Capture
 
-But users encounter valuable information every day.
-
-Remember creates a lightweight daily habit:
-
-Discover something useful
-
-↓
-
-Remember
-
-↓
-
-Memory grows
-
-↓
-
-Better future conversations
-
-↓
-
-More value
-
-↓
-
-Remember again
-
-The more users capture, the more personalized and valuable MemoryBox becomes.
-
-This creates a natural retention loop.
-
----
-
-# Strategic Fit
-
-This project directly supports the MemoryBox vision of becoming a memory-centric AI.
-
-Today MemoryBox remembers what users already have.
-
-Tomorrow it remembers what users experience.
-
-The feature strengthens:
-
-* Memory acquisition
-* Memory quality
-* Memory retrieval
-* Long-term engagement
-
-without requiring major changes to the existing memory architecture.
-
----
-
-# Differentiation
-
-## Typical AI Memory
-
-AI remembers information about the user.
+The user encounters something worth remembering.
 
 Examples:
 
-* Preferences
-* Personal details
-* Conversation history
-
-Goal:
-
-Help AI know the user.
+* Screenshot
+* AI response
+* Link
+* Note
 
 ---
 
-## Remember
+## Step 2 — Remember
 
-Users intentionally capture knowledge they want to keep.
+The user clicks Remember or drags content into MemoryBox.
 
-Examples:
-
-* Screenshots
-* Learning materials
-* Ideas
-* Helpful AI answers
-* Personal references
-
-Goal:
-
-Help users remember life.
+No manual organization required.
 
 ---
 
-# Why Now
+## Step 3 — AI Understanding
 
-Modern AI systems already excel at:
+MemoryBox automatically:
 
-* OCR
-* Image understanding
-* Summarization
-* Classification
-* Semantic retrieval
+* Reads
+* Summarizes
+* Tags
+* Connects
 
-The missing piece is not intelligence.
+the content.
 
-The missing piece is getting more memories into the system.
+---
 
-MemoryBox already has:
+## Step 4 — Recall
 
-* Memory Spaces
-* Personas
-* Retrieval
-* Knowledge Base Infrastructure
+Later the user asks a question.
 
-Remember fills the final gap by creating the easiest path from daily experience into memory.
+MemoryBox references captured memories and generates personalized responses.
+
+---
+
+## Step 5 — Daily Habit
+
+Users continue capturing useful moments throughout the day.
+
+Their memory system grows naturally over time.
+
+---
+
+# 6. Why Users Will Come Back
+
+### ✅ Improves with Use
+
+Every captured memory increases future retrieval quality and personalization.
+
+---
+
+### ✅ Embedded in Existing Workflow
+
+Lives directly inside the MemoryBox chat experience.
+
+No separate application required.
+
+---
+
+### ✅ Recurring Trigger
+
+Users discover valuable information every day.
+
+Every useful screenshot, idea, or AI response becomes a trigger for capture.
+
+---
+
+### ✅ Creates Artifacts Users Return To
+
+Captured memories become searchable, connected memory objects that users revisit through future conversations.
+
+---
+
+### 🚧 Team / Network Effect
+
+Potential future direction:
+
+Shared memory spaces for teams, projects, and organizations.
+
+---
+
+# 7. Quick Start
+
+## Explore the Demo
+
+1. Open the Lovable prototype.
+2. Save a chat response.
+3. Save a screenshot.
+4. Ask a follow-up question.
+5. Observe how MemoryBox recalls captured information.
+
+No installation required.
+
+---
+
+## Known Limitations
+
+Current hackathon scope focuses on:
+
+* UX concept
+* User workflow
+* Interaction design
+* Product validation
+
+Not implemented:
+
+* OCR pipeline
+* Storage backend
+* Retrieval infrastructure
+* Browser extension
+* Mobile capture
+
+These leverage existing MemoryBox architecture.
+
+---
+
+# 8. How It Works
+
+```text
+Chat
+Screenshot
+URL
+Document
+
+        ↓
+
+    Remember
+
+        ↓
+
+AI Processing
+
+• OCR
+• Summarization
+• Tagging
+• Classification
+
+        ↓
+
+Memory Object
+
+        ↓
+
+Memory Space
+
+        ↓
+
+Future Conversations
+```
+
+Remember acts as a lightweight capture layer on top of the existing MemoryBox memory system.
+
+Rather than changing memory retrieval, it improves how memories enter the system.
+
+---
+
+# 9. What We Built
+
+| Feature                | Status     | Notes                     |
+| ---------------------- | ---------- | ------------------------- |
+| Product Concept        | ✅ Done     | Vision and positioning    |
+| UX Flow                | ✅ Done     | End-to-end user journey   |
+| Interactive Prototype  | ✅ Done     | Built with Lovable        |
+| Chat-to-Memory Capture | ✅ Done     | Demonstrated in prototype |
+| Screenshot Capture     | ✅ Done     | Demonstrated in prototype |
+| Memory Recall Flow     | ✅ Done     | Demonstrated in prototype |
+| OCR Processing         | 🚧 Concept | Not implemented           |
+| Mobile Capture         | 🚧 Concept | Future work               |
+| Browser Extension      | 🚧 Concept | Future work               |
+
+---
+
+# 10. If We Had More Time
+
+The highest-impact next step would be:
+
+Build a universal capture layer across desktop, browser, and mobile devices so users can save anything worth remembering from anywhere with a single action.
 
 ---
 
 # Vision
 
+Today, MemoryBox remembers what users have.
+
+Tomorrow, it remembers what users experience.
+
 Memory shouldn't begin with a document.
 
 It should begin the moment something becomes worth remembering.
 
-Today:
-
-Bring me a document.
-
-Tomorrow:
-
-Bring me anything worth remembering.
-
----
-
-# Hackathon Theme
-
-Give MemoryBox Wings
-
-Remember expands MemoryBox beyond imported assets and turns it into a continuous memory companion that grows naturally with users throughout the day.
-
-Instead of asking users to build a knowledge base manually, MemoryBox becomes a place where memories arrive effortlessly.
-
-Everything worth remembering.
-
-presentation：https://remembereverything.lovable.app/slides/all.html#s1
-demo UI：https://memb.lovable.app/c/b08df728-3f5b-4e3f-b227-ec73402c1486
