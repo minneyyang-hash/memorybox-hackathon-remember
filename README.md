@@ -5,7 +5,7 @@
 A lightweight memory capture experience for MemoryBox that helps knowledge workers, lifelong learners, and AI power users instantly save screenshots, AI responses, links, and ideas as searchable, connected memories.
 
 **Repo:** [https://github.com/minneyyang-hash/memorybox-hackathon-remember]
-**Demo:** [https://memb.lovable.app/c/d86d529f-662e-4765-8bde-d08bd98b8168]
+**Demo:** [https://memb.lovable.app/hackathon]
 **Slides:** [https://remembereverything.lovable.app/slides/all.html#s1] 
 **Vedio:** [https://www.loom.com/share/8854dc234f52450181de9b4851e4df93]
         
@@ -151,7 +151,7 @@ The challenge is getting valuable information into the memory system before it i
 
 # 3. Demo
 
-**Live Demo:** [https://memb.lovable.app/c/cc5d3114-1c3b-4be7-b82a-54870d88feb8]
+**Live Demo:** [https://memb.lovable.app/hackathon]
 
 ### Scenario 1
 
