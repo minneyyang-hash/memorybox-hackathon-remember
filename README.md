@@ -152,7 +152,7 @@ The challenge is getting valuable information into the memory system before it i
 
 # 3. Demo
 
-**Live Demo:** [https://memb.lovable.app/hackathon]
+**Live Demo:** [https://www.loom.com/share/8854dc234f52450181de9b4851e4df93]
 
 ### Scenario 1
 
